@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+    RewriteRule ^albums/?$ albums.php
+    RewriteRule ^albums/([0-9]+)$ albums.php?Id=$1
+
+</IfModule>
