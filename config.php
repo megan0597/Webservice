@@ -1,20 +1,10 @@
 <?php
 
-//// local settings
-//$host = 'localhost';
-//$user = 'root';
-//$password = '';
-//$db = 'restful';
-
-// school settings
-$host = 'localhost';
-$user = '0892322';
-$password = '1f18d59e';
-$db = '0892322';
+// db settings
+$host = 'fill in your own here';
+$user = 'fill in your own here';
+$password = 'fill in your own here';
+$db = 'fill in your own here';
 
 
 $dbLink = mysqli_connect($host, $user, $password, $db); // connection to database
-
-
-// https://stud.hosted.hr.nl/0892322/webservice/albums
-// http://localhost/Jaar2/eindopdracht/albums
